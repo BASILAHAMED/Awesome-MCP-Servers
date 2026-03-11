@@ -1,0 +1,20 @@
+{
+  "name": "mcp-server-generator",
+  "version": "1.0.0",
+  "description": "Generate README from servers.json for Awesome MCP Servers",
+  "main": "generate-readme.js",
+  "scripts": {
+    "generate-readme": "node generate-readme.js",
+    "validate": "node validate.js",
+    "dev": "nodemon --watch data/servers.json --exec 'node generate-readme.js'"
+  },
+  "keywords": ["mcp", "model-context-protocol", "claude", "awesome-list"],
+  "author": "Basil Ahamed",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

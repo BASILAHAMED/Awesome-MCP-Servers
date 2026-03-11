@@ -1,0 +1,134 @@
+name: Validate MCP Servers
+
+on:
+  pull_request:
+    paths:
+      - 'data/servers.json'
+      - 'README.md'
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'data/servers.json'
+      - 'README.md'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install ajv
+          
+      - name: Validate servers.json schema
+        run: |
+          node -e "
+          const fs = require('fs');
+          const Ajv = require('ajv');
+          const ajv = new Ajv();
+          
+          const schema = {
+            type: 'object',
+            properties: {
+              servers: {
+                type: 'array',
+                items: {
+                  type: 'object',
+                  required: ['name', 'github_url', 'description', 'category'],
+                  properties: {
+                    name: { type: 'string' },
+                    github_url: { type: 'string', pattern: '^https://github.com/.+' },
+                    description: { type: 'string', maxLength: 100 },
+                    category: { type: 'string' },
+                    stars: { type: 'integer', minimum: 0 },
+                    language: { type: 'string' },
+                    clients: { 
+                      type: 'array',
+                      items: { type: 'string' }
+                    },
+                    setup_time: { type: 'string' },
+                    maintainer: { type: 'string' },
+                    last_updated: { type: 'string', pattern: '^\\d{4}-\\d{2}-\\d{2}$' },
+                    production_ready: { type: 'boolean' },
+                    notes: { type: 'string' }
+                  }
+                }
+              },
+              categories: {
+                type: 'array',
+                items: {
+                  type: 'object',
+                  required: ['name', 'description', 'icon'],
+                  properties: {
+                    name: { type: 'string' },
+                    description: { type: 'string' },
+                    icon: { type: 'string' }
+                  }
+                }
+              }
+            },
+            required: ['servers', 'categories']
+          };
+          
+          const data = JSON.parse(fs.readFileSync('data/servers.json', 'utf8'));
+          const validate = ajv.compile(schema);
+          const valid = validate(data);
+          
+          if (!valid) {
+            console.error('Validation errors:', validate.errors);
+            process.exit(1);
+          }
+          
+          // Check for duplicate server names
+          const names = data.servers.map(s => s.name);
+          const duplicates = names.filter((name, index) => names.indexOf(name) !== index);
+          if (duplicates.length > 0) {
+            console.error('Duplicate server names:', duplicates);
+            process.exit(1);
+          }
+          
+          // Check all categories exist
+          const categoryNames = data.categories.map(c => c.name);
+          const missingCategories = data.servers
+            .filter(s => !categoryNames.includes(s.category))
+            .map(s => s.name);
+          
+          if (missingCategories.length > 0) {
+            console.error('Servers with missing categories:', missingCategories);
+            process.exit(1);
+          }
+          
+          console.log('✅ Validation passed!');
+          "
+          
+      - name: Check README formatting
+        run: |
+          # Verify all servers in README exist in servers.json
+          node -e "
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/servers.json', 'utf8'));
+          const readme = fs.readFileSync('README.md', 'utf8');
+          
+          const serverNames = data.servers.map(s => s.name);
+          const missing = [];
+          
+          serverNames.forEach(name => {
+            if (!readme.includes(name)) {
+              missing.push(name);
+            }
+          });
+          
+          if (missing.length > 0) {
+            console.error('Servers missing from README:', missing);
+            process.exit(1);
+          }
+          
+          console.log('✅ All servers present in README');
+          "
