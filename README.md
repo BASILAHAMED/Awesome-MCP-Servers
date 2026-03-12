@@ -33,104 +33,104 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 
 ### 🔍 Search & Data Access
 
-- [**mcp-server-filesystem**](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ⭐ 2,100 - File system access for reading and writing files
-- [**mcp-server-git**](https://github.com/modelcontextprotocol/servers/tree/main/src/git) ⭐ 1,800 - Git repository operations (clone, commit, push, pull)
-- [**mcp-server-sqlite**](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) ⭐ 1,200 - Query SQLite databases with SQL
-- [**mcp-server-postgres**](https://github.com/modelcontextprotocol/servers/tree/main/src/postgres) ⭐ 950 - PostgreSQL database access and querying
-- [**mcp-server-mysql**](https://github.com/modelcontextprotocol/servers/tree/main/src/mysql) ⭐ 600 - MySQL database connectivity and queries
-- [**mcp-server-mongodb**](https://github.com/modelcontextprotocol/servers/tree/main/src/mongodb) ⭐ 650 - MongoDB document database access
-- [**mcp-server-supabase**](https://github.com/modelcontextprotocol/servers/tree/main/src/supabase) ⭐ 500 - Supabase PostgREST and real-time subscriptions
-- [**mcp-server-firebase**](https://github.com/modelcontextprotocol/servers/tree/main/src/firebase) ⭐ 450 - Firebase Realtime Database and Firestore
-- [**mcp-server-everything**](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) ⭐ 550 - Windows Everything search integration
+- [**mcp-server-filesystem**](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) ⭐ 2,100 - File system access for reading and writing files *(Official Reference)*
+- [**mcp-server-git**](https://github.com/modelcontextprotocol/servers/tree/main/src/git) ⭐ 1,800 - Git repository operations (clone, commit, push, pull) *(Official Reference)*
+- [**mcp-server-sqlite**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sqlite) ⭐ 1,200 - Query SQLite databases with SQL *(Archived)*
+- [**mcp-server-postgres**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) ⭐ 950 - PostgreSQL database access and querying *(Archived)*
+- [**mcp-server-mysql**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/mysql) ⭐ 600 - MySQL database connectivity and queries *(Archived - No active implementation)*
+- [**mcp-server-mongodb**](https://github.com/mongodb-js/mongodb-mcp-server) ⭐ 953 - MongoDB document database access *(Community)*
+- [**mcp-server-supabase**](https://github.com/supabase-community/supabase-mcp) ⭐ 500 - Supabase PostgREST and real-time subscriptions *(Community)*
+- [**mcp-server-firebase**](https://github.com/firebase/firebase-mcp-server) ⭐ 450 - Firebase Realtime Database and Firestore *(Broken - No active implementation)*
+- [**mcp-server-everything**](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) ⭐ 550 - Windows Everything search integration *(Official Reference)*
 
 ### 🌐 Web & APIs
 
-- [**mcp-server-http**](https://github.com/modelcontextprotocol/servers/tree/main/src/http) ⭐ 1,600 - Make HTTP requests to any REST API
-- [**mcp-server-github**](https://github.com/modelcontextprotocol/servers/tree/main/src/github) ⭐ 1,800 - Full GitHub API integration (issues, PRs, repos)
-- [**mcp-server-google-drive**](https://github.com/modelcontextprotocol/servers/tree/main/src/googledrive) ⭐ 800 - Google Drive file management and search
+- [**mcp-server-http**](https://github.com/modelcontextprotocol/servers/tree/main/src/http) ⭐ 1,600 - Make HTTP requests to any REST API *(Official Reference)*
+- [**mcp-server-github**](https://github.com/github/github-mcp-server) ⭐ 1,800 - Full GitHub API integration (issues, PRs, repos) *(Official)*
+- [**mcp-server-google-drive**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive) ⭐ 800 - Google Drive file management and search *(Archived)*
 
 ### 📧 Communication
 
-- [**mcp-server-slack**](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) ⭐ 1,100 - Send messages, read channels, interact with Slack
-- [**mcp-server-telegram**](https://github.com/modelcontextprotocol/servers/tree/main/src/telegram) ⭐ 600 - Telegram bot integration for messaging
-- [**mcp-server-email**](https://github.com/modelcontextprotocol/servers/tree/main/src/email) ⭐ 700 - Send and receive emails via SMTP/IMAP
-- [**mcp-server-sendgrid**](https://github.com/modelcontextprotocol/servers/tree/main/src/sendgrid) ⭐ 350 - Send transactional emails via SendGrid
-- [**mcp-server-twilio**](https://github.com/modelcontextprotocol/servers/tree/main/src/twilio) ⭐ 400 - Send SMS and make calls via Twilio
-- [**mcp-server-discord**](https://github.com/modelcontextprotocol/servers/tree/main/src/discord) ⭐ 500 - Discord bot integration for messaging and channels
+- [**mcp-server-slack**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/slack) ⭐ 1,100 - Send messages, read channels, interact with Slack *(Archived - Now maintained by Zencoder)*
+- [**mcp-server-telegram**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/telegram) ⭐ 600 - Telegram bot integration for messaging *(Archived)*
+- [**mcp-server-email**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/email) ⭐ 700 - Send and receive emails via SMTP/IMAP *(Archived)*
+- [**mcp-server-sendgrid**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/sendgrid) ⭐ 350 - Send transactional emails via SendGrid *(Archived)*
+- [**mcp-server-twilio**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/twilio) ⭐ 400 - Send SMS and make calls via Twilio *(Archived)*
+- [**mcp-server-discord**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/discord) ⭐ 500 - Discord bot integration for messaging and channels *(Archived)*
 
 ### 🗃️ Knowledge & Memory
 
-- [**mcp-server-pinecone**](https://github.com/modelcontextprotocol/servers/tree/main/src/pinecone) ⭐ 1,200 - Vector database for RAG and semantic search
-- [**mcp-server-weaviate**](https://github.com/modelcontextprotocol/servers/tree/main/src/weaviate) ⭐ 900 - Weaviate vector store for knowledge graphs
-- [**mcp-server-redis**](https://github.com/modelcontextprotocol/servers/tree/main/src/redis) ⭐ 850 - Redis cache and storage for fast access
+- [**mcp-server-pinecone**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/pinecone) ⭐ 1,200 - Vector database for RAG and semantic search *(Archived)*
+- [**mcp-server-weaviate**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/weaviate) ⭐ 900 - Weaviate vector store for knowledge graphs *(Archived)*
+- [**mcp-server-redis**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/redis) ⭐ 850 - Redis cache and storage for fast access *(Archived)*
 
 ### 🤖 AI & LLMs
 
-- [**mcp-server-openai**](https://github.com/modelcontextprotocol/servers/tree/main/src/openai) ⭐ 1,500 - Direct OpenAI API access (GPT-4, DALL-E, Whisper)
-- [**mcp-server-anthropic**](https://github.com/modelcontextprotocol/servers/tree/main/src/anthropic) ⭐ 1,300 - Claude API integration with streaming
-- [**mcp-server-local-ai**](https://github.com/modelcontextprotocol/servers/tree/main/src/local-ai) ⭐ 1,100 - Run local LLMs via Ollama, LM Studio, LocalAI
+- [**mcp-server-openai**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/openai) ⭐ 1,500 - Direct OpenAI API access (GPT-4, DALL-E, Whisper) *(Archived)*
+- [**mcp-server-anthropic**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/anthropic) ⭐ 1,300 - Claude API integration with streaming *(Archived)*
+- [**mcp-server-local-ai**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/local-ai) ⭐ 1,100 - Run local LLMs via Ollama, LM Studio, LocalAI *(Archived)*
 
 ### 📊 Analytics & Monitoring
 
-- [**mcp-server-grafana**](https://github.com/modelcontextprotocol/servers/tree/main/src/grafana) ⭐ 600 - Query Grafana dashboards and metrics
-- [**mcp-server-prometheus**](https://github.com/modelcontextprotocol/servers/tree/main/src/prometheus) ⭐ 550 - Prometheus metrics querying and alerting
-- [**mcp-server-datadog**](https://github.com/modelcontextprotocol/servers/tree/main/src/datadog) ⭐ 450 - Datadog API integration for monitoring
+- [**mcp-server-grafana**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/grafana) ⭐ 600 - Query Grafana dashboards and metrics *(Archived)*
+- [**mcp-server-prometheus**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/prometheus) ⭐ 550 - Prometheus metrics querying and alerting *(Archived)*
+- [**mcp-server-datadog**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/datadog) ⭐ 450 - Datadog API integration for monitoring *(Archived)*
 
 ### 🛠️ DevOps
 
-- [**mcp-server-docker**](https://github.com/modelcontextprotocol/servers/tree/main/src/docker) ⭐ 1,400 - Manage Docker containers, images, volumes
-- [**mcp-server-k8s**](https://github.com/modelcontextprotocol/servers/tree/main/src/kubernetes) ⭐ 1,000 - Kubernetes cluster operations and management
-- [**mcp-server-aws**](https://github.com/modelcontextprotocol/servers/tree/main/src/aws) ⭐ 900 - AWS services (S3, EC2, Lambda, DynamoDB)
-- [**mcp-server-azure**](https://github.com/microsoft/mcp) ⭐ 2,800 - Microsoft Azure services (all in one): storage, compute, databases, AI, and more
-- [**mcp-server-azure-devops**](https://github.com/microsoft/azure-devops-mcp) ⭐ 600 - Azure DevOps integration: work items, repos, pipelines, test plans, wikis
-- [**mcp-server-fabric**](https://github.com/microsoft/mcp) ⭐ 450 - Microsoft Fabric: data engineering, analytics, and business intelligence
+- [**mcp-server-docker**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/docker) ⭐ 1,400 - Manage Docker containers, images, volumes *(Archived)*
+- [**mcp-server-k8s**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/kubernetes) ⭐ 1,000 - Kubernetes cluster operations and management *(Archived)*
+- [**mcp-server-aws**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/aws) ⭐ 900 - AWS services (S3, EC2, Lambda, DynamoDB) *(Archived)*
+- [**mcp-server-azure**](https://github.com/microsoft/mcp) ⭐ 2,800 - Microsoft Azure services (all in one): storage, compute, databases, AI, and more *(Official)*
+- [**mcp-server-azure-devops**](https://github.com/Tiberriver256/mcp-server-azure-devops) ⭐ 600 - Azure DevOps integration: work items, repos, pipelines, test plans, wikis *(Official)*
+- [**mcp-server-fabric**](https://github.com/microsoft/mcp) ⭐ 450 - Microsoft Fabric: data engineering, analytics, and business intelligence *(Official)*
 
 ### 💰 Finance & Crypto
 
-- [**mcp-server-stripe**](https://github.com/mcp/com.stripe/mcp) ⭐ 800 - Stripe payment processing and customer management
-- [**mcp-server-coinbase**](https://github.com/base/base-mcp) ⭐ 400 - Cryptocurrency prices and trading via Coinbase
-- [**mcp-server-stock**](https://github.com/financial-datasets/mcp-server) ⭐ 350 - Stock market prices and financial data
+- [**mcp-server-stripe**](https://github.com/mcp/stripe) ⭐ 800 - Stripe payment processing and customer management *(Official)*
+- [**mcp-server-coinbase**](https://github.com/base/base-mcp) ⭐ 400 - Cryptocurrency prices and trading via Coinbase/Base *(Official)*
+- [**mcp-server-stock**](https://github.com/financial-datasets/mcp-server) ⭐ 350 - Stock market prices and financial data *(Official)*
 
 ### 🎨 Creative & Media
 
-- [**mcp-server-canvas**](https://github.com/modelcontextprotocol/servers/tree/main/src/canvas) ⭐ 750 - Image generation using DALL-E, Midjourney APIs
-- [**mcp-server-video**](https://github.com/modelcontextprotocol/servers/tree/main/src/video) ⭐ 350 - Video processing, transcription, analysis
+- [**mcp-server-canvas**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/canvas) ⭐ 750 - Image generation using DALL-E, Midjourney APIs *(Archived)*
+- [**mcp-server-video**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/video) ⭐ 350 - Video processing, transcription, analysis *(Archived)*
 
 ### 📚 Learning & Research
 
-- [**mcp-server-arxiv**](https://github.com/modelcontextprotocol/servers/tree/main/src/arxiv) ⭐ 500 - Search and retrieve academic papers from arXiv
-- [**mcp-server-wikipedia**](https://github.com/modelcontextprotocol/servers/tree/main/src/wikipedia) ⭐ 450 - Wikipedia search and article retrieval
+- [**mcp-server-arxiv**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/arxiv) ⭐ 500 - Search and retrieve academic papers from arXiv *(Archived)*
+- [**mcp-server-wikipedia**](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/wikipedia) ⭐ 450 - Wikipedia search and article retrieval *(Archived)*
 
 ### 🏢 Enterprise
 
-- [**mcp-server-dynamics365-erp**](https://github.com/d365devgit/d365fo-mcp-server-v1) ⭐ 250 - Microsoft Dynamics 365 ERP integration (Finance & SCM) - Public Preview
-- [**mcp-server-salesforce**](https://github.com/salesforcecli/mcp) ⭐ 400 - Salesforce CRM data access and operations
-- [**mcp-server-jira**](https://github.com/modelcontextprotocol/servers/tree/main/src/jira) ⭐ 600 - Jira issue tracking and project management
-- [**mcp-server-notion**](https://github.com/modelcontextprotocol/servers/tree/main/src/notion) ⭐ 900 - Notion workspace pages and databases
-- [**mcp-server-linear**](https://github.com/linear/linear-mcp) ⭐ 550 - Linear issue tracking and project management
-- [**mcp-server-clickup**](https://github.com/TaazKareem/clickup-mcp-server) ⭐ 300 - ClickUp task and project management
+- [**mcp-server-dynamics365-erp**](https://github.com/d365devgit/d365fo-mcp-server-v1) ⭐ 250 - Microsoft Dynamics 365 ERP integration (Finance & SCM) - Public Preview *(Official)*
+- [**mcp-server-salesforce**](https://github.com/salesforcecli/mcp) ⭐ 400 - Salesforce CRM data access and operations *(Official)*
+- [**mcp-server-jira**](https://github.com/atlassian/atlassian-mcp-server) ⭐ 600 - Jira issue tracking and project management *(Official)*
+- [**mcp-server-notion**](https://github.com/makenotion/notion-mcp-server) ⭐ 900 - Notion workspace pages and databases *(Official)*
+- [**mcp-server-linear**](https://github.com/tacticlaunch/mcp-linear) ⭐ 550 - Linear issue tracking and project management *(Community)*
+- [**mcp-server-clickup**](https://github.com/TaazKareem/clickup-mcp-server) ⭐ 300 - ClickUp task and project management *(Community)*
 
 ### 🔧 Utilities
 
-- [**mcp-server-calculator**](https://github.com/modelcontextprotocol/servers/tree/main/src/calculator) ⭐ 700 - Advanced math and scientific calculations
-- [**mcp-server-time**](https://github.com/modelcontextprotocol/servers/tree/main/src/time) ⭐ 550 - Timezone conversions, scheduling, timestamps
-- [**mcp-server-secrets**](https://github.com/modelcontextprotocol/servers/tree/main/src/secrets) ⭐ 400 - Secure secret and credential management
-- [**mcp-server-calendar**](https://github.com/modelcontextprotocol/servers/tree/main/src/calendar) ⭐ 450 - Google Calendar integration and scheduling
-- [**mcp-server-todoist**](https://github.com/modelcontextprotocol/servers/tree/main/src/todoist) ⭐ 300 - Todoist task management integration
-- [**mcp-server-rss**](https://github.com/modelcontextprotocol/servers/tree/main/src/rss) ⭐ 250 - RSS feed reader and aggregator
-- [**mcp-server-weather**](https://github.com/modelcontextprotocol/servers/tree/main/src/weather) ⭐ 400 - Weather forecasts and current conditions
-- [**mcp-server-csv**](https://github.com/modelcontextprotocol/servers/tree/main/src/csv) ⭐ 350 - Parse, query, and manipulate CSV files
-- [**mcp-server-excel**](https://github.com/modelcontextprotocol/servers/tree/main/src/excel) ⭐ 300 - Read and write Excel files (.xlsx, .xls)
-- [**mcp-server-pdf**](https://github.com/modelcontextprotocol/servers/tree/main/src/pdf) ⭐ 400 - Extract text and metadata from PDF files
+- [**mcp-server-calculator**](https://github.com/modelcontextprotocol/servers/tree/main/src/calculator) ⭐ 700 - Advanced math and scientific calculations *(Official Reference)*
+- [**mcp-server-time**](https://github.com/modelcontextprotocol/servers/tree/main/src/time) ⭐ 550 - Timezone conversions, scheduling, timestamps *(Official Reference)*
+- [**mcp-server-secrets**](https://github.com/modelcontextprotocol/servers/tree/main/src/secrets) ⭐ 400 - Secure secret and credential management *(Community)*
+- [**mcp-server-calendar**](https://github.com/modelcontextprotocol/servers/tree/main/src/calendar) ⭐ 450 - Google Calendar integration and scheduling *(Community)*
+- [**mcp-server-todoist**](https://github.com/modelcontextprotocol/servers/tree/main/src/todoist) ⭐ 300 - Todoist task management integration *(Community)*
+- [**mcp-server-rss**](https://github.com/modelcontextprotocol/servers/tree/main/src/rss) ⭐ 250 - RSS feed reader and aggregator *(Community)*
+- [**mcp-server-weather**](https://github.com/modelcontextprotocol/servers/tree/main/src/weather) ⭐ 400 - Weather forecasts and current conditions *(Community)*
+- [**mcp-server-csv**](https://github.com/modelcontextprotocol/servers/tree/main/src/csv) ⭐ 350 - Parse, query, and manipulate CSV files *(Community)*
+- [**mcp-server-excel**](https://github.com/modelcontextprotocol/servers/tree/main/src/excel) ⭐ 300 - Read and write Excel files (.xlsx, .xls) *(Community)*
+- [**mcp-server-pdf**](https://github.com/modelcontextprotocol/servers/tree/main/src/pdf) ⭐ 400 - Extract text and metadata from PDF files *(Community)*
 
 ### 🧪 Experimental
 
-- [**mcp-server-playwright**](https://github.com/modelcontextprotocol/servers/tree/main/src/playwright) ⭐ 6,100 - Automate browser testing and web scraping with Playwright
-- [**mcp-server-browser**](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) ⭐ 650 - Browser automation via Puppeteer
-- [**mcp-server-voice**](https://github.com/modelcontextprotocol/servers/tree/main/src/voice) ⭐ 300 - Speech-to-text and text-to-speech
-- [**mcp-server-sequential-thinking**](https://github.com/modelcontextprotocol/servers/tree/main/src/sequential-thinking) ⭐ 800 - Chain-of-thought reasoning and step-by-step thinking
-- [**mcp-server-code-interpreter**](https://github.com/modelcontextprotocol/servers/tree/main/src/code-interpreter) ⭐ 1,200 - Execute Python, JavaScript, and other code
-- [**mcp-server-websearch**](https://github.com/modelcontextprotocol/servers/tree/main/src/websearch) ⭐ 900 - Google and Bing web search integration
+- [**mcp-server-playwright**](https://github.com/modelcontextprotocol/servers/tree/main/src/playwright) ⭐ 6,100 - Automate browser testing and web scraping with Playwright *(Official Reference)*
+- [**mcp-server-browser**](https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer) ⭐ 650 - Browser automation via Puppeteer *(Community)*
+- [**mcp-server-voice**](https://github.com/modelcontextprotocol/servers/tree/main/src/voice) ⭐ 300 - Speech-to-text and text-to-speech *(Community)*
+- [**mcp-server-sequential-thinking**](https://github.com/modelcontextprotocol/servers/tree/main/src/sequential-thinking) ⭐ 800 - Chain-of-thought reasoning and step-by-step thinking *(Official Reference)*
+- [**mcp-server-code-interpreter**](https://github.com/modelcontextprotocol/servers/tree/main/src/code-interpreter) ⭐ 1,200 - Execute Python, JavaScript, and other code *(Community)*
+- [**mcp-server-websearch**](https://github.com/modelcontextprotocol/servers/tree/main/src/websearch) ⭐ 900 - Google and Bing web search integration *(Community)*
 
 
 
@@ -141,8 +141,8 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 | Server | Category | Stars | Why It's Great |
 |--------|----------|-------|----------------|
 | [mcp-server-playwright](https://github.com/modelcontextprotocol/servers/tree/main/src/playwright) | Experimental | ⭐ 6,100 | Popular choice with strong community support |
-| [mcp-server-azure](https://github.com/microsoft/mcp) | DevOps | ⭐ 2,800 | Popular choice with strong community support |
-| [mcp-server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Search & Data Access | ⭐ 2,100 | Popular choice with strong community support |
+| [mcp-server-azure](https://github.com/microsoft/mcp) | DevOps | ⭐ 2,800 | Official Microsoft Azure integration |
+| [mcp-server-filesystem](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) | Search & Data Access | ⭐ 2,100 | Official reference implementation |
 
 
 ---
@@ -172,7 +172,7 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before 
 
 *Automatically updated via GitHub Actions*
 - 🔥 [mcp-server-pdf](https://github.com/modelcontextprotocol/servers/tree/main/src/pdf) - Extract text and metadata from PDF files
-- 🚀 [mcp-server-github](https://github.com/modelcontextprotocol/servers/tree/main/src/github) - Full GitHub API integration (issues, PRs, repos)
+- 🚀 [mcp-server-github](https://github.com/github/github-mcp-server) - Full GitHub API integration (issues, PRs, repos)
 - ⭐ [mcp-server-stripe](https://github.com/mcp/com.stripe/mcp) - Stripe payment processing and customer management
 
 
