@@ -103,7 +103,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 
 ### 🏢 Enterprise
 
-- [**mcp-server-dynamics365-erp**](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2025/11/11/dynamics-365-erp-model-context-protocol/) ⭐ 250 - Microsoft Dynamics 365 ERP integration (Finance & SCM) - Public Preview
+- [**mcp-server-dynamics365-erp**](https://github.com/d365devgit/d365fo-mcp-server-v1) ⭐ 250 - Microsoft Dynamics 365 ERP integration (Finance & SCM) - Public Preview
 - [**mcp-server-salesforce**](https://github.com/modelcontextprotocol/server-salesforce) ⭐ 400 - Salesforce CRM data access and operations
 - [**mcp-server-jira**](https://github.com/modelcontextprotocol/server-jira) ⭐ 600 - Jira issue tracking and project management
 - [**mcp-server-notion**](https://github.com/modelcontextprotocol/server-notion) ⭐ 900 - Notion workspace pages and databases
@@ -171,9 +171,9 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before 
 ## 📈 Trending This Week
 
 *Automatically updated via GitHub Actions*
-- 🔥 [mcp-server-fs](https://github.com/modelcontextprotocol/server-fs) - File system access for reading and writing files
-- 🚀 [mcp-server-discord](https://github.com/modelcontextprotocol/server-discord) - Discord bot integration for messaging and channels
-- ⭐ [mcp-server-time](https://github.com/modelcontextprotocol/server-time) - Timezone conversions, scheduling, timestamps
+- 🔥 [mcp-server-openai](https://github.com/modelcontextprotocol/server-openai) - Direct OpenAI API access (GPT-4, DALL-E, Whisper)
+- 🚀 [mcp-server-email](https://github.com/modelcontextprotocol/server-email) - Send and receive emails via SMTP/IMAP
+- ⭐ [mcp-server-weather](https://github.com/modelcontextprotocol/server-weather) - Weather forecasts and current conditions
 
 
 ---

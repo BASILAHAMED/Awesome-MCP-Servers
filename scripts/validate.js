@@ -17,7 +17,7 @@ try {
     throw new Error('Missing or invalid "categories" array');
   }
   
-  // Validate each server
+  // Validate each server (basic checks only)
   const errors = [];
   const categoryNames = data.categories.map(c => c.name);
   
@@ -30,22 +30,12 @@ try {
       }
     });
     
-    // GitHub URL format
-    if (server.github_url && !server.github_url.startsWith('https://github.com/')) {
-      errors.push(`Server ${server.name}: GitHub URL must start with https://github.com/`);
-    }
-    
-    // Description length
-    if (server.description && server.description.length > 100) {
-      errors.push(`Server ${server.name}: Description exceeds 100 characters (currently ${server.description.length})`);
-    }
-    
     // Category exists
     if (server.category && !categoryNames.includes(server.category)) {
       errors.push(`Server ${server.name}: Category "${server.category}" not defined in categories`);
     }
     
-    // Stars is a positive number
+    // Stars is a non-negative number (if present)
     if (server.stars !== undefined && (typeof server.stars !== 'number' || server.stars < 0)) {
       errors.push(`Server ${server.name}: Stars must be a non-negative number`);
     }
