@@ -157,6 +157,19 @@
       "production_ready": true
     },
     {
+      "name": "helium-mcp",
+      "github_url": "https://github.com/connerlambden/helium-mcp",
+      "description": "Real-time news with bias scoring across 5,000+ sources, AI-powered options pricing, and live market data",
+      "category": "Web & APIs",
+      "stars": 0,
+      "language": "Python",
+      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "setup_time": "2 min",
+      "maintainer": "Community",
+      "last_updated": "2026-04-01",
+      "production_ready": true
+    },
+    {
       "name": "mcp-server-slack",
       "github_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
       "description": "Send messages, read channels, interact with Slack",
