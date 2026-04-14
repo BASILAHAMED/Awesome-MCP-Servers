@@ -48,6 +48,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 - [**mcp-server-http**](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ⭐ 1,600 - Make HTTP requests to any REST API *(Official Reference)*
 - [**mcp-server-github**](https://github.com/github/github-mcp-server) ⭐ 1,800 - Full GitHub API integration (issues, PRs, repos) *(Official)*
 - [**mcp-server-google-drive**](https://github.com/google/mcp) ⭐ 800 - Google Drive file management and search *(Official - Now part of Google's MCP collection)*
+- [**helium-mcp**](https://github.com/connerlambden/helium-mcp) - Real-time news with bias scoring across 5,000+ sources, AI-powered options pricing, and live market data *(Community)*
 
 ### 📧 Communication
 
