@@ -42,6 +42,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 - [**mcp-server-supabase**](https://github.com/supabase-community/supabase-mcp) ⭐ 500 - Supabase PostgREST and real-time subscriptions *(Community)*
 - [**mcp-server-firebase**](https://github.com/gannonh/firebase-mcp) ⭐ 450 - Firebase Realtime Database and Firestore *(Community)*
 - [**mcp-server-everything**](https://github.com/modelcontextprotocol/servers/tree/main/src/everything) ⭐ 550 - Windows Everything search integration *(Official Reference)*
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
 
 ### 🌐 Web & APIs
 
