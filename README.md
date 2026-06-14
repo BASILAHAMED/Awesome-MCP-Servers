@@ -3478,7 +3478,7 @@ The **Model Context Protocol (MCP)** is a standardized interface designed to bri
 MCP’s design emphasizes **extensibility**, allowing developers to wrap virtually any service—databases, file storage, messaging platforms—behind a lightweight RPC interface that AI agents can safely consume.
 
 ---
-
+- [Helium MCP](https://github.com/connerlambden/helium-mcp) — Real-time news with 37-dimension bias scoring, ML options pricing, and live market data. [Interactive demo](https://connerlambden.github.io/helium-news-explorer/) · [REST API](https://heliumtrades.com/mcp-page/)
 ## Why MCP Servers Matter
 
 1. **Separation of Concerns**  
