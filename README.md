@@ -95,6 +95,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 
 - [**mcp-server-canvas**](https://github.com/modelcontextprotocol/servers/tree/main/src/canvas) ⭐ 750 - Image generation using DALL-E, Midjourney APIs
 - [**mcp-server-video**](https://github.com/modelcontextprotocol/servers/tree/main/src/video) ⭐ 350 - Video processing, transcription, analysis
+- [**runapi-mcp**](https://github.com/runapi-ai/mcp) ⭐ 51 - Run AI image, video, music, speech, and LLM jobs through RunAPI *(Community)*
 
 ### 📚 Learning & Research
 
