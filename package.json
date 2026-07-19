@@ -5,6 +5,7 @@
   "main": "scripts/generate-readme.js",
   "scripts": {
     "generate-readme": "node scripts/generate-readme.js",
+    "test": "node --test scripts/*.test.js",
     "validate": "node scripts/validate.js",
     "dev": "nodemon --watch data/servers.json --exec 'node scripts/generate-readme.js'"
   },
