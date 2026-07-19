@@ -12,7 +12,6 @@ const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 // Count stats
 const totalServers = data.servers.length;
 const categories = data.categories.length;
-const productionReady = data.servers.filter(s => s.production_ready).length;
 
 // Get current date
 const lastUpdated = new Date().toISOString().split('T')[0];
@@ -63,17 +62,24 @@ function getFeaturedReason(server) {
   return 'Popular choice with strong community support';
 }
 
-// Generate trending section (random selection of 3)
-function generateTrending() {
-  const trending = [...data.servers]
+function selectRecentlyUpdated(servers) {
+  return [...servers]
     .filter(s => s.production_ready)
-    .sort(() => Math.random() - 0.5)
+    .sort((a, b) => {
+      const updatedOrder = (b.last_updated || '').localeCompare(a.last_updated || '');
+      return updatedOrder || a.name.localeCompare(b.name);
+    })
     .slice(0, 3);
+}
+
+// Generate recently updated section
+function generateRecentlyUpdated() {
+  const recentlyUpdated = selectRecentlyUpdated(data.servers);
   
-  let output = '*Automatically updated via GitHub Actions*\n';
+  let output = '*Selected from the latest production-ready server updates*\n';
   
   const emojis = ['🔥', '🚀', '⭐'];
-  trending.forEach((server, index) => {
+  recentlyUpdated.forEach((server, index) => {
     const emoji = emojis[index];
     output += `- ${emoji} [${server.name}](${server.github_url}) - ${server.description}\n`;
   });
@@ -146,9 +152,9 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before 
 
 ---
 
-## 📈 Trending This Week
+## 📈 Recently Updated
 
-${generateTrending()}
+${generateRecentlyUpdated()}
 
 ---
 
@@ -158,9 +164,13 @@ This list is **community-maintained**. We do not endorse or guarantee the qualit
 
 ---
 
-**Made with ❤️ by the MCP community**`;
+**Made with ❤️ by the MCP community**
+`;
 
-// Write the README
-fs.writeFileSync(readmePath, baseReadme);
+if (require.main === module) {
+  fs.writeFileSync(readmePath, baseReadme);
 
-console.log(`✅ README generated with ${totalServers} servers across ${categories} categories`);
+  console.log(`✅ README generated with ${totalServers} servers across ${categories} categories`);
+}
+
+module.exports = { selectRecentlyUpdated };

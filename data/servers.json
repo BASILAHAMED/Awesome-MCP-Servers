@@ -157,6 +157,18 @@
       "production_ready": true
     },
     {
+      "name": "xquik-mcp-server",
+      "github_url": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "description": "X data platform with REST endpoints, MCP tools, webhooks, SDKs, and confirmed writes",
+      "category": "Web & APIs",
+      "language": "JavaScript",
+      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "setup_time": "5 min",
+      "maintainer": "Xquik-dev",
+      "last_updated": "2026-07-16",
+      "production_ready": true
+    },
+    {
       "name": "mcp-server-slack",
       "github_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
       "description": "Send messages, read channels, interact with Slack",

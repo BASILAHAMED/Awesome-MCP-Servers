@@ -13,9 +13,9 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 
 ## 📊 Stats
 
-- **Total Servers**: 62+
+- **Total Servers**: 63+
 - **Categories**: 13
-- **Last Updated**: 2026-03-12
+- **Last Updated**: 2026-07-18
 - **Maintained by**: [Basil Ahamed](https://github.com/BASILAHAMED)
 
 ---
@@ -48,6 +48,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 - [**mcp-server-http**](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) ⭐ 1,600 - Make HTTP requests to any REST API *(Official Reference)*
 - [**mcp-server-github**](https://github.com/github/github-mcp-server) ⭐ 1,800 - Full GitHub API integration (issues, PRs, repos) *(Official)*
 - [**mcp-server-google-drive**](https://github.com/google/mcp) ⭐ 800 - Google Drive file management and search *(Official - Now part of Google's MCP collection)*
+- [**xquik-mcp-server**](https://github.com/Xquik-dev/x-twitter-scraper) - X data platform with REST endpoints, MCP tools, webhooks, SDKs, and confirmed writes
 
 ### 📧 Communication
 
@@ -168,12 +169,12 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before 
 
 ---
 
-## 📈 Trending This Week
+## 📈 Recently Updated
 
-*Automatically updated via GitHub Actions*
-- 🔥 [mcp-server-pdf](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/pdf) - Extract text and metadata from PDF files
-- 🚀 [mcp-server-github](https://github.com/github/github-mcp-server) - Full GitHub API integration (issues, PRs, repos)
-- ⭐ [mcp-server-stripe](https://github.com/stripe/stripe-mcp-server) - Stripe payment processing and customer management
+*Selected from the latest production-ready server updates*
+- 🔥 [xquik-mcp-server](https://github.com/Xquik-dev/x-twitter-scraper) - X data platform with REST endpoints, MCP tools, webhooks, SDKs, and confirmed writes
+- 🚀 [mcp-server-anthropic](https://github.com/modelcontextprotocol/servers/tree/main/src/anthropic) - Claude API integration with streaming
+- ⭐ [mcp-server-azure](https://github.com/microsoft/mcp) - Microsoft Azure services (all in one): storage, compute, databases, AI, and more
 
 
 ---
