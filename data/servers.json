@@ -170,6 +170,19 @@
       "production_ready": true
     },
     {
+      "name": "BulkPublish",
+      "github_url": "https://github.com/azeemkafridi/bulkpublish-api",
+      "description": "Plan, review, schedule, and batch-publish social media content for AI agents",
+      "category": "Communication",
+      "stars": 1,
+      "language": "TypeScript",
+      "clients": ["Claude", "Codex", "GitHub Copilot", "OpenClaw", "Other MCP clients"],
+      "setup_time": "10 min",
+      "maintainer": "Azeem Kafridi",
+      "last_updated": "2026-09-02",
+      "production_ready": true
+    },
+    {
       "name": "mcp-server-telegram",
       "github_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/telegram",
       "description": "Telegram bot integration for messaging",
