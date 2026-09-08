@@ -13,9 +13,9 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 
 ## 📊 Stats
 
-- **Total Servers**: 62+
+- **Total Servers**: 63+
 - **Categories**: 13
-- **Last Updated**: 2026-03-12
+- **Last Updated**: 2026-09-08
 - **Maintained by**: [Basil Ahamed](https://github.com/BASILAHAMED)
 
 ---
@@ -95,6 +95,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 
 - [**mcp-server-canvas**](https://github.com/modelcontextprotocol/servers/tree/main/src/canvas) ⭐ 750 - Image generation using DALL-E, Midjourney APIs
 - [**mcp-server-video**](https://github.com/modelcontextprotocol/servers/tree/main/src/video) ⭐ 350 - Video processing, transcription, analysis
+- [**OrkasVideoStudio**](https://github.com/Orkas-AI/Orkas-VideoStudio) ⭐ 492 - Local-first MCP toolkit for editable plan.json video timelines
 
 ### 📚 Learning & Research
 

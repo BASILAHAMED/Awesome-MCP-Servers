@@ -805,6 +805,20 @@
       "maintainer": "Anthropic",
       "last_updated": "2025-02-25",
       "production_ready": true
+    },
+    {
+      "name": "OrkasVideoStudio",
+      "github_url": "https://github.com/Orkas-AI/Orkas-VideoStudio",
+      "description": "Local-first MCP toolkit for editable plan.json video timelines",
+      "category": "Creative & Media",
+      "stars": 492,
+      "language": "TypeScript",
+      "clients": ["Claude Code", "Codex"],
+      "setup_time": "10 min",
+      "maintainer": "Orkas-AI",
+      "last_updated": "2026-09-04",
+      "production_ready": true,
+      "notes": "Official server; install from source while npm packages are being published"
     }
   ],
   "categories": [
