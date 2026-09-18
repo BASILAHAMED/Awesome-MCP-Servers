@@ -87,6 +87,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 
 ### 💰 Finance & Crypto
 
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
 - [**mcp-server-stripe**](https://github.com/stripe/stripe-mcp-server) ⭐ 800 - Stripe payment processing and customer management *(Official)*
 - [**mcp-server-coinbase**](https://github.com/base/base-mcp) ⭐ 400 - Cryptocurrency prices and trading via Coinbase/Base *(Official)*
 - [**mcp-server-stock**](https://github.com/financial-datasets/mcp-server) ⭐ 350 - Stock market prices and financial data *(Official)*
