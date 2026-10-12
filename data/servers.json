@@ -118,6 +118,15 @@
       "production_ready": true
     },
     {
+      "name": "Invokely MCP Connector",
+      "github_url": "https://github.com/estevecastells/invokely-mcp-connector",
+      "description": "MIT-licensed stdio adapter for Invokely's hosted official-statistics MCP; backend source excluded",
+      "category": "Search & Data Access",
+      "language": "JavaScript",
+      "last_updated": "2026-10-12",
+      "notes": "The MIT-licensed stdio adapter forwards calls to Invokely's hosted statistics service; backend source is not included."
+    },
+    {
       "name": "mcp-server-http",
       "github_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/http",
       "description": "Make HTTP requests to any REST API",
