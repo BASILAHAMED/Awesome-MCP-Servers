@@ -7,7 +7,11 @@
       "category": "Search & Data Access",
       "stars": 2100,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -20,7 +24,11 @@
       "category": "Search & Data Access",
       "stars": 1800,
       "language": "Python",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -33,7 +41,11 @@
       "category": "Search & Data Access",
       "stars": 1200,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -46,7 +58,10 @@
       "category": "Search & Data Access",
       "stars": 950,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -59,7 +74,10 @@
       "category": "Search & Data Access",
       "stars": 600,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-15",
@@ -72,7 +90,10 @@
       "category": "Search & Data Access",
       "stars": 650,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-18",
@@ -85,7 +106,10 @@
       "category": "Search & Data Access",
       "stars": 500,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-20",
@@ -98,7 +122,9 @@
       "category": "Search & Data Access",
       "stars": 450,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-10",
@@ -111,7 +137,9 @@
       "category": "Search & Data Access",
       "stars": 550,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-15",
@@ -124,7 +152,11 @@
       "category": "Web & APIs",
       "stars": 1600,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -137,7 +169,11 @@
       "category": "Web & APIs",
       "stars": 1800,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -150,7 +186,10 @@
       "category": "Web & APIs",
       "stars": 800,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -163,7 +202,11 @@
       "category": "Communication",
       "stars": 1100,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -176,7 +219,10 @@
       "category": "Communication",
       "stars": 600,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-15",
@@ -189,7 +235,10 @@
       "category": "Communication",
       "stars": 700,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-20",
@@ -202,7 +251,9 @@
       "category": "Communication",
       "stars": 350,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-12",
@@ -215,7 +266,9 @@
       "category": "Communication",
       "stars": 400,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-14",
@@ -228,7 +281,10 @@
       "category": "Communication",
       "stars": 500,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-16",
@@ -241,7 +297,11 @@
       "category": "Knowledge & Memory",
       "stars": 1200,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -254,7 +314,10 @@
       "category": "Knowledge & Memory",
       "stars": 900,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-28",
@@ -267,7 +330,10 @@
       "category": "Knowledge & Memory",
       "stars": 850,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-25",
@@ -280,7 +346,11 @@
       "category": "AI & LLMs",
       "stars": 1500,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -293,7 +363,11 @@
       "category": "AI & LLMs",
       "stars": 1300,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -306,7 +380,10 @@
       "category": "AI & LLMs",
       "stars": 1100,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-20",
@@ -319,7 +396,10 @@
       "category": "Analytics & Monitoring",
       "stars": 600,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-10",
@@ -332,7 +412,10 @@
       "category": "Analytics & Monitoring",
       "stars": 550,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-08",
@@ -345,7 +428,9 @@
       "category": "Analytics & Monitoring",
       "stars": 450,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-05",
@@ -358,7 +443,11 @@
       "category": "DevOps",
       "stars": 1400,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -371,7 +460,10 @@
       "category": "DevOps",
       "stars": 1000,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-18",
@@ -384,7 +476,10 @@
       "category": "DevOps",
       "stars": 900,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "20 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-22",
@@ -397,7 +492,13 @@
       "category": "DevOps",
       "stars": 2800,
       "language": "C#",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf", "VS Code", "Visual Studio"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf",
+        "VS Code",
+        "Visual Studio"
+      ],
       "setup_time": "15 min",
       "maintainer": "Microsoft",
       "last_updated": "2025-03-01",
@@ -410,7 +511,11 @@
       "category": "DevOps",
       "stars": 600,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "VS Code"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "VS Code"
+      ],
       "setup_time": "15 min",
       "maintainer": "Microsoft",
       "last_updated": "2025-01-31",
@@ -423,7 +528,10 @@
       "category": "DevOps",
       "stars": 450,
       "language": "C#",
-      "clients": ["Claude Desktop", "VS Code"],
+      "clients": [
+        "Claude Desktop",
+        "VS Code"
+      ],
       "setup_time": "15 min",
       "maintainer": "Microsoft",
       "last_updated": "2025-02-15",
@@ -436,7 +544,11 @@
       "category": "Enterprise",
       "stars": 250,
       "language": "C#",
-      "clients": ["Claude Desktop", "VS Code", "GitHub Copilot"],
+      "clients": [
+        "Claude Desktop",
+        "VS Code",
+        "GitHub Copilot"
+      ],
       "setup_time": "20 min",
       "maintainer": "Microsoft",
       "last_updated": "2025-11-11",
@@ -449,7 +561,10 @@
       "category": "Finance & Crypto",
       "stars": 800,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Stripe",
       "last_updated": "2025-02-12",
@@ -462,7 +577,9 @@
       "category": "Finance & Crypto",
       "stars": 400,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "15 min",
       "maintainer": "Base",
       "last_updated": "2025-02-01",
@@ -475,7 +592,9 @@
       "category": "Finance & Crypto",
       "stars": 350,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "10 min",
       "maintainer": "Financial Datasets",
       "last_updated": "2025-02-10",
@@ -488,7 +607,10 @@
       "category": "Creative & Media",
       "stars": 750,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-14",
@@ -501,7 +623,9 @@
       "category": "Creative & Media",
       "stars": 350,
       "language": "Python",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "20 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-01-30",
@@ -514,7 +638,10 @@
       "category": "Learning & Research",
       "stars": 500,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-10",
@@ -527,7 +654,10 @@
       "category": "Learning & Research",
       "stars": 450,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-08",
@@ -540,7 +670,9 @@
       "category": "Enterprise",
       "stars": 400,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "20 min",
       "maintainer": "Salesforce",
       "last_updated": "2025-02-05",
@@ -553,7 +685,10 @@
       "category": "Enterprise",
       "stars": 600,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-12",
@@ -566,7 +701,10 @@
       "category": "Enterprise",
       "stars": 900,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-18",
@@ -579,7 +717,10 @@
       "category": "Enterprise",
       "stars": 550,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Linear",
       "last_updated": "2025-02-22",
@@ -592,7 +733,9 @@
       "category": "Enterprise",
       "stars": 300,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "15 min",
       "maintainer": "Community",
       "last_updated": "2025-02-08",
@@ -605,7 +748,11 @@
       "category": "Utilities",
       "stars": 700,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "2 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -618,7 +765,10 @@
       "category": "Utilities",
       "stars": 550,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "2 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -631,7 +781,9 @@
       "category": "Utilities",
       "stars": 400,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-01",
@@ -644,7 +796,10 @@
       "category": "Utilities",
       "stars": 450,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-18",
@@ -657,7 +812,9 @@
       "category": "Utilities",
       "stars": 300,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-10",
@@ -670,7 +827,9 @@
       "category": "Utilities",
       "stars": 250,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-05",
@@ -683,7 +842,10 @@
       "category": "Utilities",
       "stars": 400,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-12",
@@ -696,7 +858,10 @@
       "category": "Utilities",
       "stars": 350,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-05",
@@ -709,7 +874,9 @@
       "category": "Utilities",
       "stars": 300,
       "language": "TypeScript",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-01",
@@ -722,7 +889,10 @@
       "category": "Utilities",
       "stars": 400,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-08",
@@ -735,7 +905,11 @@
       "category": "Experimental",
       "stars": 6100,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "10 min",
       "maintainer": "Microsoft",
       "last_updated": "2025-02-28",
@@ -748,7 +922,10 @@
       "category": "Experimental",
       "stars": 650,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "15 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-20",
@@ -761,7 +938,9 @@
       "category": "Experimental",
       "stars": 300,
       "language": "Python",
-      "clients": ["Claude Desktop"],
+      "clients": [
+        "Claude Desktop"
+      ],
       "setup_time": "20 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-01-25",
@@ -774,7 +953,11 @@
       "category": "Experimental",
       "stars": 800,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "5 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -787,7 +970,11 @@
       "category": "Experimental",
       "stars": 1200,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor", "Windsurf"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor",
+        "Windsurf"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-03-01",
@@ -800,11 +987,24 @@
       "category": "Experimental",
       "stars": 900,
       "language": "TypeScript",
-      "clients": ["Claude Desktop", "Cursor"],
+      "clients": [
+        "Claude Desktop",
+        "Cursor"
+      ],
       "setup_time": "10 min",
       "maintainer": "Anthropic",
       "last_updated": "2025-02-25",
       "production_ready": true
+    },
+    {
+      "name": "Agent Payment Node",
+      "github_url": "https://github.com/nuanu-ai/agent-payment-node",
+      "description": "Local macOS CLI and stdio MCP payments with foreground owner approval for signing.",
+      "category": "Finance & Crypto",
+      "language": "TypeScript",
+      "maintainer": "nuanu-ai",
+      "production_ready": false,
+      "notes": "Apple Silicon macOS and Node 24; foreground owner approval for signing. Tested with a local MCP protocol client (initialize, tools/list, apn_version); no GUI-client compatibility claim."
     }
   ],
   "categories": [
