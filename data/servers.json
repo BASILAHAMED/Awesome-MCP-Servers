@@ -805,6 +805,20 @@
       "maintainer": "Anthropic",
       "last_updated": "2025-02-25",
       "production_ready": true
+    },
+    {
+      "name": "kilobat",
+      "github_url": "https://github.com/seifip/kilobat-cli",
+      "description": "Local macOS network diagnostics over stdio MCP",
+      "category": "Analytics & Monitoring",
+      "language": "Swift",
+      "clients": [
+        "MCP Python SDK"
+      ],
+      "maintainer": "Philip Seifi",
+      "last_updated": "2026-11-02",
+      "production_ready": false,
+      "notes": "macOS 14+; some tools need the separately licensed companion app and permissions."
     }
   ],
   "categories": [

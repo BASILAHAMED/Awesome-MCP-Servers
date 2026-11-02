@@ -13,7 +13,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 
 ## 📊 Stats
 
-- **Total Servers**: 62+
+- **Total Servers**: 63+
 - **Categories**: 13
 - **Last Updated**: 2026-03-12
 - **Maintained by**: [Basil Ahamed](https://github.com/BASILAHAMED)
@@ -75,6 +75,7 @@ MCP servers enable AI assistants to **access your data**, **execute tools**, and
 - [**mcp-server-grafana**](https://github.com/modelcontextprotocol/servers/tree/main/src/grafana) ⭐ 600 - Query Grafana dashboards and metrics
 - [**mcp-server-prometheus**](https://github.com/modelcontextprotocol/servers/tree/main/src/prometheus) ⭐ 550 - Prometheus metrics querying and alerting
 - [**mcp-server-datadog**](https://github.com/modelcontextprotocol/servers/tree/main/src/datadog) ⭐ 450 - Datadog API integration for monitoring
+- [**kilobat**](https://github.com/seifip/kilobat-cli) - Local macOS network diagnostics over stdio MCP
 
 ### 🛠️ DevOps
 
